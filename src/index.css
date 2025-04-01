@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-800 font-sans antialiased; /* Antialiased for smoother fonts */
+}
+
+/* Styling for dnd-kit drag overlay if needed */
+.drag-overlay {
+  @apply shadow-2xl rounded-lg opacity-90 cursor-grabbing;
+  /* Add any other styles for the item being dragged */
+}
